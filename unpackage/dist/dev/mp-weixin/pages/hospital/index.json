@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "navbar": "../../components/navbar/navbar",
+    "share": "../../components/share/share"
+  }
+}

@@ -1,0 +1,102 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/order/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的订单",
+				"navigationBarBackgroundColor" : "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/user/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/search/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/hospital/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/service/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "填写服务订单",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/clients/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/order/orderDetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "订单详情"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#535353",
+		"selectedColor": "#0bb584",
+		"borderStyle": "white",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "static/resource/images/tab_index.png",
+			"selectedIconPath": "static/resource/images/tab_index_seled.png"
+		}, {
+			"pagePath": "pages/order/index",
+			"text": "订单",
+			"iconPath": "static/resource/images/tab_pub.png",
+			"selectedIconPath": "static/resource/images/tab_pub_seled.png"
+		}, {
+			"pagePath": "pages/user/index",
+			"text": "我的",
+			"iconPath": "static/resource/images/tab_user.png",
+			"selectedIconPath": "static/resource/images/tab_user_seled.png"
+		}]
+	},
+	// "plugins": {
+	// 	"routePlan": {
+	// 		"version": "1.0.19",
+	// 		"provider": "wx50b5593e81dd937a"
+	// 	}
+	// },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
